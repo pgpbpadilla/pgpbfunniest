@@ -1,3 +1,16 @@
-def joke():
-    return (u'Wenn ist das Nunst\u00fcck git und Slotermeyer? Ja! ... '
-            u'Beiherhund das Oder die Flipperwaldt gersput.')
+# This is to allow:
+# import pgpgfunniest
+# from pgpbfunniest.text import joke
+# print joke()
+__all__ = ["text"]
+
+# This is to allow:
+# > import pgpgfunniest
+# > print pgpbfunniest.joke()
+#
+# you can also do:
+#
+# > from pgpbfunniest.text import joke as j
+# > print j()
+from pgpbfunniest.text import joke
+
