@@ -1,12 +1,12 @@
 from setuptools import setup
 
-setup(name='pgpb-funniest',
+setup(name='pgpbfunniest',
       version='0.1',
       description='The funniest joke in the world',
-      url='http://github.com/pgpbpadilla/pgpb-funniest',
+      url='http://github.com/pgpbpadilla/pgpbfunniest',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
-      packages=['pgpb-funniest'],
+      packages=['pgpbfunniest'],
       zip_safe=False)
 
